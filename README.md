@@ -12,4 +12,13 @@ This project is a simple static website for an architecture company. It is desig
 
 This project uses only HTML and CSS — no JavaScript, frameworks, or build tools involved.
 
+## Project Structure
+
+sourcs/
+├── index.html
+├── style.css
+├── image/
+│   └── ... images ...
+
+
 ![alt text](source/image/demo.png)
