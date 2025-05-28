@@ -113,9 +113,7 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
+    width: 150px;
 }
 
 .nav-menu {
@@ -542,13 +540,14 @@ footer {
 }
 
 .footer-links a {
-    color: var(--white);
+    color: var(--accent-color);
     text-decoration: none;
     transition: opacity 0.3s;
 }
 
 .footer-links a:hover {
     opacity: 0.8;
+    text-decoration: underline;
 }
 
 .copyright {
