@@ -1,13 +1,25 @@
 {
   "name": "arch",
   "version": "1.0.0",
-  "author": "Bazzomir",
+  "author": {
+    "name": "Bazzomir",
+    "email": "bazzomir1997@gmail.com",
+    "year": "2025"
+  },
   "homepage": "https://bazzomir.github.io/arch/",
   "private": true,
   "scripts": {
     "build": "echo 'No build needed'",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bazzomir/arch"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Bazzomir/arch/issues"
   },
   "dependencies": {
     "gh-pages": "^6.3.0"
