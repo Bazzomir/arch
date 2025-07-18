@@ -1,12 +1,13 @@
 {
   "name": "arch",
   "version": "1.0.0",
+  "description": "This project is a simple static website for an architecture company. It is designed to present the company’s services, portfolio, and contact information in a clean and modern layout. This project uses only HTML and CSS — no JavaScript, frameworks, or build tools involved.",
   "author": {
     "name": "Bazzomir",
     "email": "bazzomir97@gmail.com",
     "year": "2025"
   },
-  "homepage": "https://bazzomir.github.io/arch/",
+  "main": "source/index.html",
   "private": true,
   "scripts": {
     "build": "echo 'No build needed'",
@@ -17,10 +18,11 @@
     "type": "git",
     "url": "https://github.com/Bazzomir/arch"
   },
-  "keywords": [],
+  "keywords": ["arch", "architecture", "company", "HTML", "CSS"],
   "bugs": {
     "url": "https://github.com/Bazzomir/arch/issues"
   },
+  "homepage": "https://bazzomir.github.io/arch/",
   "dependencies": {
     "gh-pages": "^6.3.0"
   }
