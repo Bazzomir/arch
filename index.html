@@ -7,14 +7,15 @@
     <meta name="description"
         content="Explore professional architecture services, a modern project portfolio, and contact information on our elegant static website. Designed for impact and clarity.">
     <title>Architecture Firm</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="image/favicon.png" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="icon" type="image/png" href="./assets/image/favicon.png" sizes="16x16">
 </head>
 
 <body>
     <nav>
         <div class="container nav-container">
-            <a href="#home"><img src="image/logo-nav.png" alt="Logo" class="logo" /></a>
+            <a href="#home"><img src="./assets/image/logo-nav.png" alt="Logo" class="logo" /></a>
             <div class="menu-icon">&#9776;</div>
             <ul class="nav-menu">
                 <li><a href="#mission">Our Mission</a></li>
@@ -28,10 +29,10 @@
 
     <section id="home" class="hero">
         <div class="container hero-container">
-            <div class="hero-content">
-                <div class="yellow-box"></div>
-                <div class="dots-pattern"></div>
-                <div class="hero-box">
+            <div class="hero-content ">
+                <div class="yellow-box heroReveal"></div>
+                <div class="dots-pattern heroFloatIn"></div>
+                <div class="hero-box heroBounceZoom">
                     <h1>We are architects</h1>
                     <p>Modern architecture brings together vision and practicality, combining style with functionality.
                         Explore our projects and discover how we transform spaces into beautiful, functional
@@ -39,38 +40,38 @@
                     <a href="#" class="btn">LEARN MORE</a>
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="image/img1.png" alt="Architect">
+            <div class="hero-image heroSpinIn">
+                <img src="./assets/image/img1.png" alt="Architect">
             </div>
         </div>
     </section>
 
-    <section id="mission" class="mission">
+    <section id="mission" class="mission fadeUp">
         <div class="container mission-container">
-            <div class="mission-text">
+            <div class="mission-text blurIn">
                 <h2>Our Mission</h2>
                 <p>We create exceptional architectural solutions and designs, bringing innovation and sustainability to
                     every project. Our commitment goes beyond aesthetics, focusing on creating spaces that inspire and
                     function perfectly.</p>
                 <a href="#" class="btn btn-yellow">LEARN MORE</a>
             </div>
-            <div class="mission-images">
-                <img src="image/img2.png" alt="Architect at desk">
-                <img src="image/img3.png" alt="Building plans">
-                <img src="image/img4.png" alt="Team meeting">
-                <img src="image/img5.png" alt="Construction site">
+            <div class="mission-images rotateIn">
+                <img src="./assets/image/img2.png" alt="Architect at desk">
+                <img src="./assets/image/img3.png" alt="Building plans">
+                <img src="./assets/image/img4.png" alt="Team meeting">
+                <img src="./assets/image/img5.png" alt="Construction site">
             </div>
         </div>
     </section>
 
     <section id="services" class="services">
         <div class="container services-container">
-            <div class="services-image">
-                <img src="image/img6.png" alt="Modern cityscape">
+            <div class="services-image stretchIn">
+                <img src="./assets/image/img6.png" alt="Modern cityscape">
             </div>
             <div class="services-boxes">
-                <div class="service-box">
-                    <div class="service-icon">
+                <div class="service-box fadeLeft">
+                    <div class="service-icon fadeRight">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -80,8 +81,8 @@
                     <p>Designing homes that reflect personal style while maximizing comfort and functionality for
                         everyday living.</p>
                 </div>
-                <div class="service-box">
-                    <div class="service-icon">
+                <div class="service-box fadeUp">
+                    <div class="service-icon fadeDown">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -91,8 +92,8 @@
                     <p>Creating stunning showcase properties that highlight design possibilities and inspire potential
                         buyers.</p>
                 </div>
-                <div class="service-box">
-                    <div class="service-icon">
+                <div class="service-box fadeRight">
+                    <div class="service-icon fadeLeft">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16"></path>
                             <polyline points="3 21 21 21"></polyline>
@@ -110,16 +111,16 @@
     <section id="projects" class="projects">
         <div class="container projects-container">
             <div class="project-grid">
-                <div class="project-item">
-                    <img src="image/img7.png" alt="Project team">
-                    <div class="project-info">
+                <div class="project-item slideRotateRight">
+                    <img src="./assets/image/img7.png" alt="Project team">
+                    <div class="project-info slideRotateLeft">
                         <p>Our dedicated team collaborates closely with clients to understand their vision and
                             requirements, ensuring every project meets the highest standards.</p>
                     </div>
                 </div>
-                <div class="project-item">
-                    <img src="image/img8.png" alt="Project planning">
-                    <div class="project-info">
+                <div class="project-item slideRotateLeft">
+                    <img src="./assets/image/img8.png" alt="Project planning">
+                    <div class="project-info slideRotateRight">
                         <p>Detailed planning and precise execution are at the core of our process, with regular client
                             consultations to ensure satisfaction at every stage.</p>
                     </div>
@@ -128,12 +129,12 @@
         </div>
     </section>
 
-    <section id="engineering" class="engineering">
+    <section id="engineering" class="engineering fadeDown">
         <div class="container engineering-container">
             <div class="engineering-image">
-                <img src="image/img9.png" alt="Modern building interior">
+                <img src="./assets/image/img9.png" alt="Modern building interior">
             </div>
-            <div class="engineering-content">
+            <div class="engineering-content blurIn">
                 <h2>Full-Service Engineering</h2>
                 <p>Our comprehensive engineering solutions complement our architectural designs, ensuring structural
                     integrity and practical functionality.</p>
@@ -144,13 +145,13 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header blurIn">
                 <h2>Get in Touch</h2>
                 <div class="accent-line"></div>
             </div>
             <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-card">
+                <div class="contact-info ">
+                    <div class="contact-card flipIn">
                         <div class="contact-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
@@ -162,7 +163,7 @@
                         <p>Architecture District</p>
                         <p>New York, NY 10001</p>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card slideSkew">
                         <div class="contact-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path
@@ -175,7 +176,7 @@
                         <p>Email: info@archfirm.com</p>
                         <p>Contact: Sarah Johnson, Principal</p>
                     </div>
-                    <div class="contact-card">
+                    <div class="contact-card rotateIn">
                         <div class="contact-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <circle cx="12" cy="12" r="10"></circle>
@@ -199,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
+                <div class="contact-form stretchIn">
                     <h3>Send Us a Message</h3>
                     <form>
                         <div class="form-group">
@@ -228,8 +229,7 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <!-- <div class="footer-logo">ARCH</div> -->
-                <a href="#home"><img src="image/logo-footer.png" alt="Logo" class="logo" /></a>
+                <a href="#home"><img src="./assets/image/logo-footer.png" alt="Logo" class="logo" /></a>
                 <div class="footer-links">
                     <a href="#mission">Mission</a>
                     <a href="#services">Services</a>
@@ -238,7 +238,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 ARCH. Made by Bazzomir with 💚.</p>
+                <p>&copy; 2025 ARCH. Made by Bazzomir, with 💚.</p>
             </div>
         </div>
     </footer>
