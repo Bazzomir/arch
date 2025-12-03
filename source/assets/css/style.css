@@ -15,6 +15,10 @@
     --border-color: #e5e5e5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -133,7 +137,7 @@ nav {
 }
 
 .nav-menu a:hover {
-    color: var(--primary-color);
+    color: var(--accent-color);
     text-decoration: underline;
 }
 
