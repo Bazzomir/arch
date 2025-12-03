@@ -10,15 +10,8 @@ This project is a simple static website for an architecture company. It is desig
 - HTML5
 - CSS3
 
-This project uses only HTML and CSS — no JavaScript, frameworks, or build tools involved.
+This project uses only HTML and CSS — no JavaScript, frameworks, or build tools involved. 
 
-## Project Structure
-
-sourcs/
-├── index.html
-├── style.css
-├── image/
-│   └── ... images ...
+It also features custom scroll-triggered animations inspired by AOS (Animate On Scroll) purely with CSS.
 
 
-![alt text](source/image/demo.png)
